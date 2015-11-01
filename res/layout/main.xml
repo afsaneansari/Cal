@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+    <EditText
+            android:id="@+id/screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:ems="10"
+            android:clickable="false" android:focusable="false" android:focusableInTouchMode="false" android:text="0" android:gravity="right">
+        <requestFocus />
+    </EditText>
+
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:gravity="center_horizontal">
+
+
+            <Button
+                    android:id="@+id/ce"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="20dp"
+                    android:text="CE" />
+
+
+
+
+
+
+            <Button
+                    android:id="@+id/c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="20dp"
+                    android:text="&lt;-" />
+
+
+            <Button
+                    android:id="@+id/power"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="20dp"
+                    android:text="^" />
+
+
+
+            <Button
+                    android:id="@+id/sqrt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="20dp"
+                    android:text="√" />
+
+        </TableRow>
+
+        <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:gravity="center_horizontal">
+            <Button
+                    android:id="@+id/n7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="7" android:paddingRight="30dp" android:paddingLeft="30dp" android:paddingTop="20dp" android:paddingBottom="20dp"/>
+            <Button
+                    android:id="@+id/n8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="8" android:paddingRight="30dp" android:paddingLeft="30dp" android:paddingTop="20dp" android:paddingBottom="20dp"/>
+            <Button
+                    android:id="@+id/n9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="9" android:paddingRight="30dp" android:paddingLeft="30dp" android:paddingTop="20dp" android:paddingBottom="20dp"/>
+
+            <Button
+                    android:id="@+id/product"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="*" android:paddingRight="30dp" android:paddingLeft="30dp" android:paddingTop="20dp" android:paddingBottom="20dp"/>
+
+        </TableRow>
+        <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:gravity="center_horizontal">
+            <Button
+                    android:id="@+id/n4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="4" android:paddingRight="30dp" android:paddingLeft="30dp" android:paddingTop="20dp" android:paddingBottom="20dp"/>
+            <Button
+                    android:id="@+id/n5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="5" android:paddingRight="30dp" android:paddingLeft="30dp" android:paddingTop="20dp" android:paddingBottom="20dp"/>
+            <Button
+                    android:id="@+id/n6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="6" android:paddingRight="30dp" android:paddingLeft="30dp" android:paddingTop="20dp" android:paddingBottom="20dp"/>
+
+            <Button
+                    android:id="@+id/div"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="/" android:paddingRight="30dp" android:paddingLeft="30dp" android:paddingTop="20dp" android:paddingBottom="20dp"/>
+
+        </TableRow>
+        <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:gravity="center_horizontal">
+            <Button
+                    android:id="@+id/n1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="1" android:paddingRight="30dp" android:paddingLeft="30dp" android:paddingTop="20dp" android:paddingBottom="20dp"/>
+            <Button
+                    android:id="@+id/n2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="2" android:paddingRight="30dp" android:paddingLeft="30dp" android:paddingTop="20dp" android:paddingBottom="20dp"/>
+            <Button
+                    android:id="@+id/n3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="3" android:paddingRight="30dp" android:paddingLeft="30dp" android:paddingTop="20dp" android:paddingBottom="20dp"/>
+
+            <Button
+                    android:id="@+id/minus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="-" android:paddingRight="30dp" android:paddingLeft="30dp" android:paddingTop="20dp" android:paddingBottom="20dp"/>
+
+        </TableRow>
+        <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:gravity="center_horizontal">
+            <Button
+                    android:id="@+id/dot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="." android:paddingRight="30dp" android:paddingLeft="30dp" android:paddingTop="20dp" android:paddingBottom="20dp"/>
+            <Button
+                    android:id="@+id/n0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="0" android:paddingRight="30dp" android:paddingLeft="30dp" android:paddingTop="20dp" android:paddingBottom="20dp"/>
+
+
+
+
+            <Button
+                    android:id="@+id/signal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="20dp"
+                    android:text="+-" />
+
+            <Button
+                    android:id="@+id/add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="+" android:paddingRight="30dp" android:paddingLeft="30dp" android:paddingTop="20dp" android:paddingBottom="20dp"/>
+
+        </TableRow>
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mosavi"
+                android:text="="/>
+
+    </TableLayout>
+
+</LinearLayout>
